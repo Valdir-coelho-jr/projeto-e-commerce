@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useEffect, useContext } from "react";
 
-import "./products.css";
+import "./Products.css";
 import fetchProducts from "../../api/fetchProducts";
 import ProductCard from "../ProductCard/ProductCard";
 import Loading from "../Loading/Loading";
